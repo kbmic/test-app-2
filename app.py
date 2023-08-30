@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plost 
 
-st.write(pd.__version__)
+
 
 
 st.set_page_config(layout='wide', initial_sidebar_state='expanded')
@@ -24,7 +24,7 @@ plot_height = st.sidebar.slider('Specify plot height', 200, 500, 250)
 
 st.sidebar.markdown('''
 ---
-Created with ❤️ by [Data Professor](https://youtube.com/dataprofessor/).
+.
 ''')
 
 
